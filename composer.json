@@ -1,0 +1,18 @@
+{
+    "name": "brillianttechnologies/gively-models",
+    "description": "Gively models",
+    "type": "library",
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brillianttechnologies\\GivelyModels\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Brillianttechnologies\\GivelyModelsTests\\": "tests/"
+        }
+    }
+}
